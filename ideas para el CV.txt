@@ -1,0 +1,3 @@
+Ideas para JS en el curriculum
+
+1)hacer un formulario de contacto con validacion (que pinte de verde si esta ok)

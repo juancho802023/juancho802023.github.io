@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <title>Proyecto Calculadora</title>
+</head>
+<body>
+
+
+    <form>
+
+        <label>Numero1
+
+            <input type="number" id="numero1" required>
+
+
+        </label>
+
+        <label>Numero2
+
+            <input type="number" id="numero2" required>
+
+        </label>
+
+        <button type="button" id="sumar">Calular suma</button> 
+        
+    </form>
+
+    <div id="contenedorResultado" style="display: none;">
+
+        El resultado de la suma es:
+        <p id="resultado"></p>
+
+    </div>
+
+    <script>
+
+        document.getElementById("sumar").addEventListener('click',function(){
+
+                let numeroA=document.getElementById('numero1').value;
+                console.log(numeroA);
+                let numeroB=document.getElementById('numero2').value;
+                console.log(numeroB);
+                let resultado=sumar(parseInt(numeroA),parseInt(numeroB));
+                console.log(resultado);
+
+
+                document.getElementById('resultado').innerHTML=resultado;
+                document.getElementById('contenedorResultado').style.display="block";
+
+
+
+        });
+
+        function sumar(a,b){
+
+        return a + b;
+
+
+}
+
+
+    </script>
+
+    <p id="demo"></p>
+
+    <script>
+
+        const persona = '{"nombre":"Juan", "Edad":42, "Nacionalidad":"Argentino"}';
+        const obj=JSON.parse(persona);
+        console.log(obj);
+
+        document.getElementById('demo').innerHTML=
+        "Nombre: " + obj.nombre + "|Edad: " + obj.Edad + "|Nacionalidad: " + obj.Nacionalidad;
+
+
+
+
+    </script>
+
+
+
+    
+</body>
+</html>

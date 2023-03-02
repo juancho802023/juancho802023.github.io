@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(236, 243, 245);
+  }
+
+#inicio{
+
+    text-align: center;
+    color: blue;
+    font-size: 100%;
+    
+}
+
+.contenedores {
+
+    
+    margin: auto;
+    border: 3px solid black;
+
+    
+    }
+
+  #mifoto{
+
+    position:static;
+    right:10px;
+    width: 0px;
+    top: 95px;
+    
+    
+    padding: 10px;
+       
+    }   
+
+
+.listado{
+
+    font-size: 100%;
+
+}
+.titulos_box{
+
+    font-size: 100%;
+
+
+
+}
+.titulo_terciario{
+
+  font-size:100% ;
+
+}
+.nav-link{
+
+  background:lightblue ;
+  color:black;
+  padding: 10px 30px;
+  display: inline-block;
+
+}
+.nav-link:hover{
+
+    background:white;
+
+}
+.container-form{
+
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+
+
+}
+.container-form h2{
+
+  margin-bottom: 15px;
+  font-size: 35px;
+
+
+}
+.container-form p{
+
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+
+}
+.container-form a{
+
+  font-size: 17px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+  }
+
+.container-form form .campo, textarea{
+
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px;
+
+  
+}
+.container-form form textarea{
+
+  max-width: 630px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+.container-form .btn-enviar{
+
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: lightblue;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+
+
+}
+.container-form .btn-enviar:hover{
+  background:blue ;
+}
+
+.warnings{
+
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: black;
+  padding-top: 20px;
+
+}
